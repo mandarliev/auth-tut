@@ -3,7 +3,7 @@ Next Auth v5
 # [x] Setup, shadcn
 # [x] Home page
 # [x] Card Wrapper
-# [] shadcn components, schema & Login Form
+# [x] shadcn components, schema & Login Form
 # [] Register Form
 # [] Database & Schema
 # [] Register Functionality
