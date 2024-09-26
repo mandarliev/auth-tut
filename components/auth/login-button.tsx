@@ -11,8 +11,7 @@ interface LoginButtonProps {
 const LoginButton = ({ children, mode, asChild }: LoginButtonProps) => {
   const router = useRouter();
   const onClick = () => {
-    // That's going to be our login route in the future
-    // For now you'll be redirected to a 404 page
+    // This will forward you to app/auth/login/page.tsx
     router.push("/auth/login");
   };
 

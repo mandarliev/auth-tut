@@ -1,8 +1,8 @@
 Next Auth v5
 
 # [x] Setup, shadcn
-# [] Home page
-# [] Card Wrapper
+# [x] Home page
+# [x] Card Wrapper
 # [] Login Form
 # [] Register Form
 # [] Database & Schema
