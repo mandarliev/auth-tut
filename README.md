@@ -1,7 +1,6 @@
 Next Auth v5
 
 # [x] Setup, shadcn
-# [] Routing
 # [] Home page
 # [] Card Wrapper
 # [] Login Form
