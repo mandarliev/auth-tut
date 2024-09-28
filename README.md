@@ -6,7 +6,7 @@ Next Auth v5
 # [x] shadcn components, schema & Login Form
 # [x] Register Form, register schema, UI fix
 # [x] Prisma Database Setup & Schema; Neon; added password to the User model
-# [] Register Functionality
+# [] bcrypt; Register Functionality;
 # [] Middleware & Login
 # [] Callbacks
 # [] OAuth (Google & Github)
