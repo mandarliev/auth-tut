@@ -8,7 +8,7 @@ Next Auth v5
 # [x] Prisma Database Setup & Schema; Neon; added password to the User model
 # [x] bcrypt; Register Functionality;
 # [x] Middleware & Login; Settings page; bcryptjs
-# [] Callbacks
+# [x] Callbacks
 # [] OAuth (Google & Github)
 # [] Emails & Tokens
 # [] Email verification
