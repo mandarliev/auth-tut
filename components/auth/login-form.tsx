@@ -40,8 +40,16 @@ const LoginForm = () => {
 
     startTransition(() => {
       login(values).then((data) => {
-        setError(data.error);
-        setSuccess(data.success);
+        if (data?.error) {
+          form.reset();
+          setError(data.error);
+        }
+
+        // TODO: Success will be added after the email confirmation; until then error will be thrown in the settings page
+        if (data?.success) {
+          form.reset();
+          setSuccess(data.success);
+        }
       });
     });
   };
@@ -95,11 +103,7 @@ const LoginForm = () => {
           </div>
           <FormError message={error} />
           <FormSuccess message={success} />
-          <Button
-            type="submit"
-            className="w-full"
-            disabled={isPending}
-          >
+          <Button type="submit" className="w-full" disabled={isPending}>
             Login
           </Button>
         </form>
