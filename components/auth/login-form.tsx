@@ -52,11 +52,10 @@ const LoginForm = () => {
           setError(data.error);
         }
 
-        // TODO: Success will be added after the 2FA; until then error will be thrown in the settings page
-        // if (data?.success) {
-        //   form.reset();
-        //   setSuccess(data.success);
-        // }
+        if (data?.success) {
+          form.reset();
+          setSuccess(data.success);
+        }
       });
     });
   };
