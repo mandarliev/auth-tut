@@ -9,7 +9,7 @@ Next Auth v5
 # [x] bcrypt; Register Functionality;
 # [x] Middleware & Login; Settings page; bcryptjs
 # [x] Callbacks
-# [] OAuth (Google & Github)
+# [x] OAuth (Google & Github)
 # [] Emails & Tokens
 # [] Email verification
 # [] Password Reset Token

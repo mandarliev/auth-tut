@@ -9,7 +9,24 @@ import { getUserById } from "./data/user";
 
 const prisma = new PrismaClient();
 
+/**
+ * I used this guide for the events
+ * https://next-auth.js.org/configuration/events#linkaccount
+ */
+
 export const { auth, handlers, signIn, signOut } = NextAuth({
+  pages: {
+    signIn: "/auth/login",
+    error: "/auth/error",
+  },
+  events: {
+    async linkAccount({ user }) {
+      await db.user.update({
+        where: { id: user.id },
+        data: { emailVerified: new Date() },
+      });
+    },
+  },
   callbacks: {
     // TODO: This is for later, I just tested it
     // async signIn({ user }) {
