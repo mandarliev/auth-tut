@@ -11,7 +11,7 @@ Next Auth v5
 # [x] Callbacks
 # [x] OAuth (Google & Github)
 # [x] Emails & Tokens, resend
-# [] Email verification
+# [x] Email verification; register action + new route for email verification; react spinners
 # [] Password Reset Token
 # [] New Password Form
 # [] Two Factor Auth
