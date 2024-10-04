@@ -12,7 +12,7 @@ Next Auth v5
 # [x] OAuth (Google & Github)
 # [x] Emails & Tokens, resend
 # [x] Email verification; register action + new route for email verification; react spinners
-# [] Password Reset Token
+# [x] Password Reset Page & Token; Reset Schema
 # [] New Password Form
 # [] Two Factor Auth
 # [] User Button & Hooks
