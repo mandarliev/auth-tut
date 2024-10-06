@@ -13,7 +13,7 @@ Next Auth v5
 # [x] Emails & Tokens, resend
 # [x] Email verification; register action + new route for email verification; react spinners
 # [x] Password Reset Page & Token; Reset Schema
-# [] New Password Form
+# [x] New Password Form, New Password Schema;
 # [] Two Factor Auth
 # [] User Button & Hooks
 # [] Server & Client Example
