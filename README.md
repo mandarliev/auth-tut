@@ -15,7 +15,7 @@ Next Auth v5
 # [x] Password Reset Page & Token; Reset Schema
 # [x] New Password Form, New Password Schema;
 # [x] Two Factor Auth
-# [] User Button & Hooks
+# [x] User Button & Hooks
 # [] Server & Client Example
 # [] Admin Example
 # [] Settings
