@@ -16,7 +16,7 @@ Next Auth v5
 # [x] New Password Form, New Password Schema;
 # [x] Two Factor Auth
 # [x] User Button & Hooks
-# [] Server & Client Example
+# [x] Server & Client Example
 # [] Admin Example
 # [] Settings
 # [] Clerk
