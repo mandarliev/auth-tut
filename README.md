@@ -36,8 +36,6 @@ Next Auth v5
 
 # [x] Admin Example
 
-# [] Settings
+# [x] Settings
 
-# [] Clerk
-
-# [] Deployment
+# [x] Final touches, Deployment
