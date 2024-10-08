@@ -10,7 +10,7 @@ interface LoginButtonProps {
   asChild?: boolean;
 }
 
-const LoginButton = ({ children, mode, asChild }: LoginButtonProps) => {
+const LoginButton = ({ children, mode }: LoginButtonProps) => {
   const router = useRouter();
   const onClick = () => {
     // This will forward you to app/auth/login/page.tsx
