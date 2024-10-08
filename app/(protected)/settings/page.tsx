@@ -35,7 +35,7 @@ import { z } from "zod";
 const SettingsPage = () => {
   const user = useCurrentUser();
   const { update } = useSession();
-  const [isPending, _setIsPending] = useTransition();
+  const [isPending] = useTransition();
   const [error, setError] = useState<string | undefined>();
   const [success, setSuccess] = useState<string | undefined>();
 
